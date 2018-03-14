@@ -12,8 +12,8 @@ public static void main(String[] args) {
         //[10000,1000000] incremented by 10000s
         System.out.println("Trial, Array Size, Time Elapsed");
         for(int arraySize = 10000; arraySize <= 1000000; arraySize += 10000) {
-		for( int i = 0; i < 100; i++){
-		    int[] testArr = QuickSort.buildArray(arraySize,100);
+		for( int i = 0; i < 1000; i++){
+		    int[] testArr = QuickSort.buildArray(arraySize,1000);
 		    startTime += System.currentTimeMillis();
 		    QuickSort.qsort(testArr);
 		    endTime += System.currentTimeMillis();
