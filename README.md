@@ -8,3 +8,9 @@ For an array of size n, the QuickSort algorithm will run in O(nlogn) time on ave
 ### Background
 The QuickSort algorithm's runtime is O(nlogn) in the best and average case, but O(n^2) in the worst case. At worst, if you continously select the maximum or minimum as the pivot, QuickSort will run in O(n^2) run time because you are performing partition (a linear run time method) n times resulting in a O(n^2) runtime categorization. Alternatively, in the best case, you would select the median of the array everytime which would mean that you perform partition logn times exactly. On average, you would still perform partition less times than n so the average case is O(nlogn) as well. 
 ### Experiment methodology
+1. Run 1000 trials of each array size in the interval [10000,1000000], in intervals of 10000.
+i. To run a trial, you build an array with random values, and then call quicksort on it. The start time is taken in between the bulding of the array and sorting, and the end time is taken after the array is sorted. The endtime and startTime are subtracted to find the time.
+2. Average the difference of the startTime and endTime to get the average runtime.
+3. Print to the CSV.
+### Graph
+### Conclusion
