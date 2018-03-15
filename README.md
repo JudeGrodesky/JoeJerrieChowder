@@ -1,5 +1,5 @@
 # JoeJerrieChowder(Jerry Ye, Raunak Chowdhury, Jude Grodesky): Analyzing the runtime of QuickSort
-  JoeJerrieChowder -- Jerry Ye, Raunak Chowdhury, Jude Grodesky
+  JoeJerrieChowder -- Jerry Ye, Raunak Chowdhury, Jude Grodesky<br />
   APCS2 PD02 <br />
   Lab01 -- But What Does the Data Say? <br /> 
   2018-03-14
