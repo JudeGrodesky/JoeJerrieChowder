@@ -1,4 +1,5 @@
 # JoeJerrieChowder(Jerry Ye, Raunak Chowdhury, Jude Grodesky): Analyzing the runtime of QuickSort
+  JoeJerrieChowder -- Jerry Ye, Raunak Chowdhury, Jude Grodesky
   APCS2 PD02 <br />
   Lab01 -- But What Does the Data Say? <br /> 
   2018-03-14
@@ -12,6 +13,7 @@ The QuickSort algorithm's runtime is O(nlogn) in the best and average case, but 
 3. Average the difference of the startTime and endTime to get the average runtime.
 4. Print to the CSV.
 ### Graph
+![graph results](Graph.png)
 
 ### Conclusion
 The data shows a linear-logarithmic relationship between array length and runtime. The rate of change of the runtime increases as the arraysize increases. The difference between runtimes begins as one milisecond, then rapidly increases. However, as it increases, it takes a larger shift in arraysize to cause the same shift in "runtime rate of change".
